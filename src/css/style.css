@@ -72,6 +72,7 @@ input[type="email"] {
   width: 250px;
   background-color: rgb(30, 30, 47); 
   color: rgb(255, 255, 255); 
+  
 }
 
 button {
@@ -88,6 +89,26 @@ button {
 button:hover {
   background-color: rgb(30, 30, 47);
   color: rgb(44, 242, 166);
+}
+
+/*  */
+.platforms img {
+  height: 30px;
+  opacity: 0.8;
+  border-radius: 100px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right img {
+  width: 70%;  
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .platforms {
@@ -120,18 +141,4 @@ button:hover {
 .platform span {
   color: rgb(255, 255, 255);
   font-size: 14px;
-}
-
-
-.right {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.right img {
-  width: 70%;  
-  max-width: 100%;
-  border-radius: 10px;
 }
